@@ -1,0 +1,44 @@
+html{
+
+    overflow-x: hidden;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans Arabic", serif;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Arabic-ui";
+    src: url(../assets/fonts/arabic-ui.otf);
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 700;
+    font-family: "Arabic-ui";
+    font-size: .9em;
+}
+p{
+    line-height: 1.75;
+}
+.yellow-color {
+    color: var(--yellow-color);
+}
+.blue-color {
+    color: var(--blue-color);
+}
+.primary-color {
+    color: var(--primary-color);
+}
+.orange-color {
+    color: var(--orange-color) !important;
+}
+.grean-color {
+    color: var(--grean-color);
+}

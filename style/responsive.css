@@ -1,0 +1,48 @@
+html{
+    font-size: 16px;
+}
+.container {
+    padding-inline: 11.375em;
+}
+.py{
+    padding-block: 5.55em;
+}
+.p-top {
+    padding-block-start: 3.55em;
+}
+.p-space {
+    padding-block-start: 1.55em;
+}
+.p-bottom {
+    padding-block-end: 5.55em;
+
+}
+@media (min-width: 1920px) {
+    html{
+        font-size: 20px;
+    }
+}
+@media (min-width: 1650px) {
+    html{
+        font-size: 18px;
+    }
+}
+@media (max-width: 1250px) {
+    .container {
+        padding-inline: 1.22em;
+    }
+    html{
+        font-size: 14px;
+    }
+}
+@media (max-width: 1024px) {
+    .container {
+        padding-inline: 1.22em;
+    }
+    html{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+}
