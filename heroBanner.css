@@ -1,0 +1,103 @@
+.hero-banner {
+    min-height: 75vh;
+    /* background: red; */
+    position: relative;
+
+}
+.hero-banner .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    min-height: 75vh;
+    padding-block: 3em;
+    gap: 2em;
+}
+.hero-banner-content{
+    display: flex;
+    flex-direction: column;
+    gap: .8em;
+}
+.hero-banner-content h2{
+    font-size: 4em;
+}
+.hero-banner-content h2 span:nth-of-type(1){
+    color: var(--primary-color);
+}
+.hero-banner-content h2 span:nth-of-type(2){
+    color: var(--yellow-color);
+}
+.hero-banner-content h2 span:nth-of-type(3){
+    color: var(--orange-color);
+}
+.hero-banner-content p {
+    color: var(--gray-color);
+    font-size: 1.125em;
+}
+.hero-banner-content-btns{
+    display: flex;
+    gap: 1.18em;
+}
+.hero-banner-content-btns a {
+    padding-block: .8em;
+    padding-inline: 1.8em;
+    border-radius: .3em;
+}
+.hero-banner-content-btns a:nth-of-type(1){
+    background: var(--orange-color);
+    color: var(--white-color);
+}
+.hero-banner-content-btns a:nth-of-type(2){
+    background: var(--secondary-color);
+    color: #909090;
+}
+.hero-banner-brands {
+    background: var(--secondary-color);
+    padding-block: .8em;
+    padding-inline: 1.8em;
+    width: calc(100% - 20em);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 1em;
+}
+
+@media (max-width: 1024px) {
+    .hero-banner .container{
+        flex-wrap: wrap;
+    }
+    .hero-banner-image{
+        order: -1;
+    }
+    .hero-banner-brands{
+        position: static;
+        width: 100%;
+        transform: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2em;
+    }
+    .hero-banner-brands img {
+        width: calc((100% - 2em) / 2);
+        height: 4em;
+        /* object-fit: cover; */
+    }
+    .hero-banner-image {
+    width: 100%;
+   }
+   .hero-banner-image img {
+    width: 100%;
+   }
+}
+@media (max-height: 800px) {
+    .hero-banner , .hero-banner .container{
+        min-height: 80vh;
+    }
+   .hero-banner-brands {
+    bottom: 0;
+   }
+   
+}

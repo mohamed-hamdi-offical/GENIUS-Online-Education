@@ -1,0 +1,232 @@
+@font-face {
+    font-family: "Arabic-ui";
+    src: url(./assets/fonts/arabic-ui.otf);
+}
+html{
+overflow-x: hidden;
+
+}
+
+.hero-banner-content-active {
+margin-left: -10em;
+
+}
+/* card instructors start */
+.instructors-container-2 {
+    margin-top: 2.5em;
+    display: flex;
+    gap: 1em;
+    transform: translate(-20em,-2em);
+
+}
+
+.instructors-2-image .img-1 {
+    background:var( --lightgray-color);
+    height: 18em;
+    position: relative;
+    border-radius: 0.8em;
+    
+}
+.instructors-2-image .img-2 {
+    background:var(--bink-color);
+   height: 18em;
+    position: relative;
+    border-radius: 0.8em;
+}
+.instructors-2-image .img-3 {
+    background:var(--blueopener-color);
+   height: 18em;
+    position: relative;
+    border-radius: 0.8em;
+}
+
+.instructors-2-image img {
+    position: absolute;
+    width: 15em;
+    height: 15em;
+    object-fit: contain;
+    bottom: 0;
+}
+/* card instructors end */
+
+/* card instructor mohamed AbdElhamed start */
+.instructors-container-T .instructors-content{
+margin-bottom: 2em;
+
+
+}
+
+
+.container-image-instructor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transform: translate(-32em,-39em);
+}
+.container-image-instructor{
+    width: 26em;
+    height: 25em;
+    
+}
+.content-instructor{
+    
+        width: 27em;
+    height: 22em;
+    background-color: var( --secondary-color);
+    padding-inline: 1.1em;
+    padding-block: 1.8em ;
+    border-top-left-radius: 0.8em;
+     border-bottom-left-radius: 0.8em;
+}
+.content-instructor h6{
+    
+        width: 45em;
+        height: 1.5em;
+    font-weight: 700;
+    font-size: 2.8em;
+ 
+}
+.content-instructor h6{
+    
+        width: 45em;
+        height: 1.5em;
+    font-weight: 700;
+    font-size: 2.8em;
+ 
+}
+.content-instructor .active-p{
+    
+        width: 22em;
+        height: 1.8em;
+    font-weight: 400;
+    font-size: 1.18em;
+    margin-bottom: 1.25em;
+    color:#686868 ;
+ 
+}
+.content-instructor .active-p-2{
+    
+        width: 20em;
+        height: 10.4em;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.75em;
+ color: var(--gray-color-Details);
+}
+
+.image-instructor img{
+height: 22em;
+background-color:var(--white-color);
+border-radius: 0.8em;
+
+}
+
+.image-instructor {
+height: 22em;
+
+}
+
+/* card instructor mohamed AbdElhamed end */
+
+/* abs teacher active  start*/
+
+.ads-active{
+margin-top: -17em;
+
+}
+/* abs teacher active  end*/
+
+
+
+/* الهواتف المحمولة */
+@media (max-width: 748px) {
+    .instructors-container-2 {
+     transform: translate(5em,-1em);
+    
+    }
+    .container-image-instructor{
+
+    display: none;
+     padding-top: 40em;
+     
+
+    }
+    .hero-banner-content {
+
+         width: 60%;
+    }
+    .instructor-card{
+        margin-bottom: 15em;
+
+
+    }
+   .instructors-image .img-2{
+    
+    display: none;
+
+
+    }
+
+    
+
+    .navbar-menu {
+        display: none;
+    }
+
+    .navbar-barIcon {
+        display: block;
+    }
+}
+@media (max-width: 1370px) {
+
+    .container-diploma-About {
+        width: 80%;
+        margin: auto;
+    }
+
+    .active-1-instructors {
+        flex-direction: column;
+        align-items: center;
+       transform: translate(0em,20em);
+       margin: auto;
+    }
+ 
+
+    .navbar-menu {
+        display: none;
+    }
+
+    .navbar-barIcon {
+        display: block;
+    }
+}
+
+@media (max-width: 610px) {
+    .right-section {
+       display: none;
+    }
+
+    .container-diploma-About {
+        width: 70%;
+        margin: auto;
+        margin-left: 10em;
+        margin-top: 4em;
+    }
+
+    .active-1-instructors {
+        flex-direction: column;
+        align-items: center;
+       transform: translate(0em,20em);
+       margin: auto;
+    }
+
+    .navbar-menu {
+        display: none;
+    }
+
+    .navbar-barIcon {
+        display: block;
+    }
+}
+
