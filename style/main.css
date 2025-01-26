@@ -1,0 +1,12 @@
+@import "./reset.css";
+@import "./variables.css";
+@import "./responsive.css";
+@import "./navbar.css";
+@import "./heroBanner.css";
+@import "./sectionHeader.css";
+@import "./home.css";
+@import "./footer.css";
+@import "./courses.css";
+@import "./teachers.css";
+@import "./about-us.css";
+@import "./content-us.css"
